@@ -1,6 +1,7 @@
 The goal is to analyze the cache miss rate for a blocked (IKJ) matrix multiplication program under changing associativity and replacement policies (PLRU, NMRU, and Random)
 
 Cache configuration -> caches.py
+
 gem5 configuration for simulation -> two-level.py
 
 The following table summarizes the data collected from the blocked matrix multiply kernel (128x128) using an O3CPU model.
